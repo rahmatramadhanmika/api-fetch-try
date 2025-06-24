@@ -27,17 +27,6 @@ const UserDetail = () => {
         )
     }
 
-    if (!user) {
-        return (
-            <div>
-                <NavComponent />
-                <div className='w-full flex justify-center items-center p-10'>
-                    <p className='text-3xl'>User not found</p>
-                </div>
-            </div>
-        )
-    }
-
     return (
         <div>
             <NavComponent />
