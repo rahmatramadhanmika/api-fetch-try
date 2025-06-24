@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <NavComponent />
-            <div className='w-full display h-96 flex flex-col justify-center items-center p-10 gap-10'>
+            <div className='w-full display h-[1000px] flex flex-col justify-center items-center p-10 gap-10'>
                 <p className='text-5xl font-bold'>Welcome to Post Ronda</p>
                 <div className='w-[50%]'>
                     <p className='text-lg text-justify'>
